@@ -1,16 +1,129 @@
-# React + Vite
+<img width="1920" height="869" alt="image" src="https://github.com/user-attachments/assets/01a1ba4b-ce88-46e4-8b0a-45094682ed9e" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+````md
+# 🔐 Firebase Login Authentication (React + Vite)
 
-## React Compiler
+A simple and modern authentication system built using **React**, **Vite**, and **Firebase Authentication**.  
+It supports **Email/Password login**, **Google Sign-In**, and **New User Registration** with a clean UI.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔑 Email & Password Authentication
+- 🔐 Google Sign-In with Firebase
+- 🆕 New User Registration
+- ⚡ Fast development using Vite
+- 🎨 Clean and responsive login UI
+- 🔒 Secure environment variable handling
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React (Vite)
+- **Authentication:** Firebase Authentication
+- **Styling:** CSS
+- **Build Tool:** Vite
+
+---
+
+## 📁 Project Structure
+
+```bash
+06-Firebase-Login/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   └── Login.jsx
+│   ├── Firebase/
+│   │   └── config.js
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+│
+├── .env
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+````
+
+---
+
+## 🔥 Firebase Setup
+
+1. Go to **Firebase Console**
+2. Create a new project
+3. Enable **Authentication**
+
+   * Email/Password
+   * Google Sign-In
+4. Create a **Web App**
+5. Copy Firebase config keys
+
+
+
+## 🧪 Authentication Methods
+
+* ✅ Email & Password Login
+* ✅ Google OAuth Login
+* ✅ New User Registration
+* ❌ Password Reset (can be added)
+
+---
+
+## 📸 Preview
+
+Login UI includes:
+
+* Email input
+* Password input
+* Login button
+* Google Login button
+* Sign Up option
+
+---
+
+## 🔮 Future Enhancements
+
+* Forgot Password
+* Protected Routes
+* User Dashboard
+* Logout functionality
+* Toast notifications
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repo
+2. Create your branch (`git checkout -b feature-name`)
+3. Commit changes
+4. Push and create a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🙌 Acknowledgements
+
+* Firebase Documentation
+* React & Vite Community
+
+
+
+Just tell me 👍
+```
